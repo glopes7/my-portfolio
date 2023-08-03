@@ -6,10 +6,13 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend:
-    {
+    extend: {
+      lineHeight: {
+        "extra-loose": "0.9",
+        12: "3rem",
+      },
       fontFamily: {
-        'roboto': ['Roboto', 'sans-serif']
+        roboto: ["Roboto", "sans-serif"],
       },
     },
   },
